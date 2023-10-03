@@ -1,17 +1,6 @@
 img{
     width: 100px;
     height: 100px;
-    border-top: 200px;
-    border-radius: 150px;
-    box-shadow: black;
+    object-fit: cover;
+    right: auto;
 }
-
-section{
-    display: flex;
-    justify-content: center;
-}
-
-#first{
-    justify-content: center;
-}
-
