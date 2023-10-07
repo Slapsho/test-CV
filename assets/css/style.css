@@ -2,5 +2,35 @@ img{
     width: 100px;
     height: 100px;
     object-fit: cover;
-    right: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 30px black;
+}
+
+@font-face {
+    font-family: "Lato-BlackItalic";
+    src: url('../font/Lato-BlackItalic.woff');
+    src: url(../font/Lato-BlackItalic.ttf) format('truetype');
+}
+
+h3{
+    font-family: "Lato-BlackItalic";
+}
+
+div{
+    width: 500px;
+    height: 125px;
+}
+
+section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+#height{
+    height: 170px;
+}
+
+h1{
+    font-family: "Lato-BlackItalic";
 }
