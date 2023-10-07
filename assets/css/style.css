@@ -23,7 +23,7 @@ div{
 
 section{
     height: 500px;
-    display: flex;
+    display: block;
     align-items: center;
 }
 
