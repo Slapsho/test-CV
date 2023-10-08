@@ -1,4 +1,4 @@
-img{
+figure{
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -40,4 +40,13 @@ h1{
 
 p{
     font: "Raleway-VariableFont";
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
 }
