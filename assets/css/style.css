@@ -1,52 +1,80 @@
-figure{
+ html{
+    background-color: brown;
+ }
+ 
+ body{
+    width: 1160px;
+    margin: 0%;
+    background-color: white;
+ }
+
+ figure{
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 0 30px black;
-}
+    box-shadow: 0 0 30px;
+ }
 
-@font-face {
+ @font-face {
     font-family: "Lato-BlackItalic";
-    src: url('../font/Lato-BlackItalic.woff');
-    src: url(../font/Lato-BlackItalic.ttf) format('truetype');   
-    font: "Raleway-VariableFont";
+    src: url(../font/Lato-BlackItalic.woff);
+    src: url(../font/Lato-BlackItalic.ttf) format("truetype");
+ }
+
+ @font-face {
+    font-family: "Raleway-VariableFont";
     src: url(../font/Raleway-VariableFont_wght.woff);
-}
+    src: url(../font/Raleway-VariableFont_wght.ttf);
+ }
 
-h3{
+ h1,
+ h3 {
     font-family: "Lato-BlackItalic";
-}
+ }
 
-div{
-    width: 500px;
-    height: 125px;
-}
-
-section{
-    height: 500px;
-    display: block;
-    align-items: center;
-}
-
-#height{
-    height: 170px;
-}
-
-h1{
-    font-family: "Lato-BlackItalic";
-}
-
-
-p{
+ p {
     font: "Raleway-VariableFont";
-}
+ }
 
-img{
+ header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .address {
+    background-color: black;
+    display: flex;
     width: 100px;
     height: 100px;
+    padding: 20px;
+ }
+
+ .address_link_container {
+    background-color: black;
+    width: 100x;
+ }
+
+ .text-center {
+    text-align: center;
+ }
+
+ .text-right {
+    text-align: right;
+ }
+
+ .text-left {
+    text-align: left;
+ }
+
+ img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-}
+ }
+
+
+
+
