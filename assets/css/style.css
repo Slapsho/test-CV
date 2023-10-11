@@ -1,9 +1,10 @@
  html{
-    background-color: brown;
+    background-color: white;
  }
  
  body{
-    width: 1160px;
+    width: 800px;
+    height: 1160px;
     margin: 0%;
     background-color: brown;
  }
@@ -33,6 +34,13 @@
     font-family: "Lato-BlackItalic";
  }
 
+ .category {
+    border: 1px solid beige; padding: 5px;
+    background-color: beige;
+    width: 200px;
+    height: 60px;
+ }
+
  p {
     font: "Raleway-VariableFont";
  }
@@ -47,7 +55,7 @@
  .address {
     background-color: black;
     display: flex;
-    width: 1160px;
+    width: 770px;
     height: 200px;
     padding: 15px;
  }
@@ -90,5 +98,12 @@
     background-color: white;
  }
 
+ .logo_reseaux_sociaux :hover{
+    opacity: 0;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+ }
 
 
