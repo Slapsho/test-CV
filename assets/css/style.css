@@ -37,12 +37,16 @@
  .category {
     border: 1px solid beige; padding: 5px;
     background-color: beige;
-    width: 200px;
+    width: 210px;
     height: 60px;
  }
 
  p {
     font: "Raleway-VariableFont";
+ }
+ 
+ p:hover {
+    color: red;
  }
 
  header {
@@ -54,9 +58,8 @@
 
  .address {
     background-color: black;
-    display: flex;
     width: 770px;
-    height: 200px;
+    height: 50px;
     padding: 15px;
  }
 
@@ -67,12 +70,10 @@
 
  .text-center {
     text-align: center;
-    justify-content: center;
  }
 
  .text-right {
     text-align: right;
-    justify-content: right;
  }
 
  .text-left {
@@ -95,7 +96,7 @@
  }
 
  .information_center {
-    background-color: white;
+    background-color: grey;
  }
 
  .logo_reseaux_sociaux :hover{
@@ -106,4 +107,10 @@
     transition-timing-function: ease-in-out;
  }
 
+ a:link {
+    color: blue;
+ }
 
+ a:hover {
+    color: red;
+ }
